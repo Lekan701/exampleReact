@@ -20,7 +20,22 @@ const App = () => {
         searchMovies('Batman')
     }, []);
     return(
-        <h1>App Wowzers!</h1>
+        <div className="app">
+            <h1>MovieLand</h1>
+
+            <div className="search">
+                <input
+                    placeholder="Search for zoovies" 
+                    value="Sooperman"
+                    onChange={() => {}}
+                />
+            </div>
+            <img
+                src={SearchIcon}
+                alt="search"
+                onClick={() => {}}
+            />
+        </div>
     );
 }
 
